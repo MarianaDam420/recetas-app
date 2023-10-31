@@ -4,5 +4,10 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  
+  daisyui: {
+    themes: ['dracula'],
+  },
+
+  plugins: [require("daisyui")],
 };
